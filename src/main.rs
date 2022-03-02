@@ -10,5 +10,7 @@ fn app() -> Html{
 
 
 fn main() {
-    println!("Hello, world!");
+
+    yew::start_app::<App>();
+
 }

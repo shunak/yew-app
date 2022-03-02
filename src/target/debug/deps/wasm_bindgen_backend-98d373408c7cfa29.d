@@ -1,0 +1,12 @@
+/root/yew-app/src/target/debug/deps/wasm_bindgen_backend-98d373408c7cfa29.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/ast.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/codegen.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/encode.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/util.rs
+
+/root/yew-app/src/target/debug/deps/libwasm_bindgen_backend-98d373408c7cfa29.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/ast.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/codegen.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/encode.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/util.rs
+
+/root/yew-app/src/target/debug/deps/wasm_bindgen_backend-98d373408c7cfa29.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/ast.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/codegen.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/encode.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/util.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/ast.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/codegen.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/encode.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-backend-0.2.79/src/util.rs:
