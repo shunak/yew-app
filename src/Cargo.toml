@@ -11,4 +11,11 @@ yew = { git = "https://github.com/yewstack/yew/" }
 
 [[bin]]
 name = "yew-app"
-path = "/root/yew-app/src/main.rs"
+# path = "/root/yew-app/src/main.rs" # Win
+path = "/Users/syu/yew-app/src/main.rs" # Mac
+
+
+
+
+
+

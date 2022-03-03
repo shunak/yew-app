@@ -1,1 +1,1 @@
-/root/yew-app/src/target/wasm32-unknown-unknown/debug/yew-app.wasm: /root/yew-app/src/components/header.rs /root/yew-app/src/components.rs /root/yew-app/src/main.rs
+/Users/syu/yew-app/src/target/wasm32-unknown-unknown/debug/yew-app.wasm: /Users/syu/yew-app/src/components/header.rs /Users/syu/yew-app/src/components/todo/todo_item.rs /Users/syu/yew-app/src/components/todo/todo_list.rs /Users/syu/yew-app/src/components/todo/types.rs /Users/syu/yew-app/src/components/todo.rs /Users/syu/yew-app/src/components.rs /Users/syu/yew-app/src/main.rs
