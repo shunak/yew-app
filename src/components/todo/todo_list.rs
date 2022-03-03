@@ -4,14 +4,28 @@ use crate::components::todo::types::Todo;
 
 #[function_component(TodoList)]
 pub fn todo_list() -> Html{
-	let todo = Todo {
+	let todo_items = vec![
+	Todo {
 		id: 1,
 		title: "Learn Rust".to_string(),
 		completed: false,
-	};
+	},
+	Todo {
+		id: 2,
+		title: "Learn Yew".to_string(),
+		completed: false,
+	},
+	Todo {
+		id: 3,
+		title: "Learn WebAssembly".to_string(),
+		completed: false,
+	},
+	]; 
 	html!{
 		<ul class="list-group">
-			<TodoItem title={todo.title} completed={todo.completed} />
+		{todo_items.iter().map(|todo| html!{
+			<TodoItem title={todo.title.clone()} completed={todo.completed} />
+		}).collect::<Html>()}
 		</ul>
 	}
 
