@@ -1,7 +1,12 @@
-use yew::{Callback, InputEvent, function_component, html, Html, use_state, MouseEvent};
+use yew::{Callback, InputEvent, function_component, html, Html, use_state, MouseEvent, Properties};
+
+#[derive(Properties, PartialEq)]
+pub struct TodoFormProps {
+	pub on_add: Callback<String>
+}
 
 #[function_component(TodoForm)]
-pub fn todo_item() -> Html {
+pub fn todo_item(props: &TodoFormProps) -> Html {
 
    let title = use_state(|| "".to_string());
 
@@ -22,10 +27,13 @@ pub fn todo_item() -> Html {
    };
 
    let onclick = {
+	   let on_add = props.on_add.clone();
 	   let title = title.clone();
 	   Callback::from(move |e: MouseEvent| {
 		   e.prevent_default();
-		   log::info!("title: {:?}", *title);
+		   title.set("".to_string());
+		//    log::info!("title: {:?}", *title);
+		   on_add.emit((*title).clone());
 	   })
    };
 
