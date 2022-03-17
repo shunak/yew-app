@@ -1,4 +1,4 @@
-use yew::{Callback, InputEvent, function_component, html, Html, use_state};
+use yew::{Callback, InputEvent, function_component, html, Html, use_state, MouseEvent};
 
 #[function_component(TodoForm)]
 pub fn todo_item() -> Html {
@@ -21,9 +21,13 @@ pub fn todo_item() -> Html {
 	   })
    };
 
-
-
-
+   let onclick = {
+	   let title = title.clone();
+	   Callback::from(move |e: MouseEvent| {
+		   e.prevent_default();
+		   log::info!("title: {:?}", *title);
+	   })
+   };
 
 
     html! {
@@ -35,7 +39,7 @@ pub fn todo_item() -> Html {
 	    <div class="mb-3">
 	     {&*title}
 	    </div>
-	    <button type="submit" class="btn btn-primary">{"Add"}</button>
+	    <button type="submit" onclick={onclick} class="btn btn-primary">{"Add"}</button>
 	   </form>
     }
 }
