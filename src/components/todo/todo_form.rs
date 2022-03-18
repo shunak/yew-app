@@ -44,9 +44,9 @@ pub fn todo_item(props: &TodoFormProps) -> Html {
 	     <label for="title" class="form-label">{"title"}</label>
 	     <input type="text" value={(*title).clone()} {oninput} class="form-control" id="title" placeholder="Enter title" />
 	    </div>
-	    <div class="mb-3">
-	     {&*title}
-	    </div>
+	    // <div class="mb-3">
+	    //  {&*title}
+	    // </div>
 	    <button type="submit" onclick={onclick} class="btn btn-primary">{"Add"}</button>
 	   </form>
     }

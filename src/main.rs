@@ -27,7 +27,6 @@ fn app() -> Html{
         })
     };
 
-    
     html! {
         <>
             <Header />
@@ -39,8 +38,6 @@ fn app() -> Html{
 
     }
 }
-
-
 
 fn main() {
 
